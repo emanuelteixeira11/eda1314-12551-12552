@@ -1,0 +1,123 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module main</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>main</strong></big></big> (11 de Maior de 2014)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/user/Documentos/eda1314-12551-12552/src/main.py">/home/user/Documentos/eda1314-12551-12552/src/main.py</a></font></td></tr></table>
+    <p><tt>Algoritmo&nbsp;A*&nbsp;Path&nbsp;Finding&nbsp;para&nbsp;a&nbsp;<br>
+procura&nbsp;de&nbsp;caminhos&nbsp;com&nbsp;menos&nbsp;custo&nbsp;<br>
+em&nbsp;funcao&nbsp;da&nbsp;intensidade.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="cv2.html">cv2</a><br>
+</td><td width="25%" valign=top><a href="math.html">math</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="time.html">time</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="main.html#OpenImage">OpenImage</a>
+</font></dt><dt><font face="helvetica, arial"><a href="main.html#WriteFile">WriteFile</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="OpenImage">class <strong>OpenImage</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Classe&nbsp;onde&nbsp;a&nbsp;imagem&nbsp;vai&nbsp;ser<br>
+aberta&nbsp;para&nbsp;estudo&nbsp;e&nbsp;tratamento<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="OpenImage-__init__"><strong>__init__</strong></a>(self, name)</dt><dd><tt>Inicializacao&nbsp;de&nbsp;parametros&nbsp;da&nbsp;classe<br>
+&nbsp;<br>
+@name&nbsp;nome&nbsp;do&nbsp;ficheiro&nbsp;da&nbsp;imagem&nbsp;a&nbsp;abrir</tt></dd></dl>
+
+<dl><dt><a name="OpenImage-draw_point"><strong>draw_point</strong></a>(self, point)</dt><dd><tt>Funcao&nbsp;que&nbsp;desenha&nbsp;um&nbsp;ponto&nbsp;na&nbsp;imagem<br>
+&nbsp;<br>
+@param&nbsp;point&nbsp;ponto&nbsp;a&nbsp;desenhar&nbsp;na&nbsp;imagem</tt></dd></dl>
+
+<dl><dt><a name="OpenImage-open_image"><strong>open_image</strong></a>(self, START_POINT, END_POINT, flag<font color="#909090">=True</font>)</dt><dd><tt>Abertura&nbsp;e&nbsp;desenho&nbsp;na&nbsp;imagem&nbsp;dos&nbsp;pontos&nbsp;inicial&nbsp;e&nbsp;final<br>
+para&nbsp;percepcao&nbsp;clara&nbsp;do&nbsp;caso&nbsp;de&nbsp;estudo<br>
+&nbsp;<br>
+@param&nbsp;START_POINT&nbsp;ponto&nbsp;incial<br>
+@param&nbsp;END_POINT&nbsp;ponto&nbsp;final</tt></dd></dl>
+
+<dl><dt><a name="OpenImage-save_image"><strong>save_image</strong></a>(self, name)</dt><dd><tt>Guarda&nbsp;o&nbsp;conteudo&nbsp;da&nbsp;janela&nbsp;num&nbsp;ficheiro<br>
+de&nbsp;imagem<br>
+&nbsp;<br>
+@param&nbsp;name&nbsp;nome&nbsp;do&nbsp;ficheiro&nbsp;de&nbsp;imagem&nbsp;a&nbsp;gravar</tt></dd></dl>
+
+<dl><dt><a name="OpenImage-show_image"><strong>show_image</strong></a>(self)</dt><dd><tt>Abertura&nbsp;de&nbsp;uma&nbsp;caixa&nbsp;de&nbsp;dialogo&nbsp;com&nbsp;<br>
+o&nbsp;resultado&nbsp;do&nbsp;algoritmo&nbsp;visivel</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="WriteFile">class <strong>WriteFile</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Classe&nbsp;para&nbsp;a&nbsp;escrita&nbsp;de&nbsp;ficheiros<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="WriteFile-write_file"><strong>write_file</strong></a>(self, name, closed_set)</dt><dd><tt>Escrita&nbsp;de&nbsp;um&nbsp;ficheiro&nbsp;.txt&nbsp;para&nbsp;o&nbsp;armazenamento&nbsp;dos<br>
+pontos&nbsp;resultantes&nbsp;do&nbsp;algoritmo<br>
+&nbsp;<br>
+@param&nbsp;name&nbsp;nome&nbsp;do&nbsp;ficheiro&nbsp;.txt&nbsp;onde&nbsp;serao&nbsp;armazenados&nbsp;os&nbsp;dados<br>
+@closed_set&nbsp;lista&nbsp;de&nbsp;pontos&nbsp;resultantes&nbsp;do&nbsp;algoritmo</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__author__</strong> = '12551 Pedro Santos &amp; 12552 Emanuel Teixeira'<br>
+<strong>__date__</strong> = '11 de Maior de 2014'</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#7799ee">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Author</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#7799ee"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">12551&nbsp;Pedro&nbsp;Santos&nbsp;&amp;&nbsp;12552&nbsp;Emanuel&nbsp;Teixeira</td></tr></table>
+</body></html>
