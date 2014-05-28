@@ -1,12 +1,14 @@
-import math
 
 '''
-@authors 12551 Pedro Santos & 12552 Emanuel Teixeira
-@date 11 de Maio de 2014
-@obs: Algoritmo A* Path Finding para a 
+Algoritmo A* Path Finding para a 
 procura de caminhos com menos custo 
 em funcao da intensidade.
 '''
+
+__author__ = '12551 Pedro Santos & 12552 Emanuel Teixeira'
+__date__ = '11 de Maio de 2014'
+
+import math
 
 class AStar():
 	"""Classe AStar e responsavel pelo algoritmo da busca

@@ -1,16 +1,18 @@
+
+'''
+Algoritmo A* Path Finding para a 
+procura de caminhos com menos custo 
+em funcao da intensidade.
+'''
+
 import math
 import cv2
 import numpy as np
 from astar import AStar
 import time
 
-'''
-@authors 12551 Pedro Santos & 12552 Emanuel Teixeira
-@date 11 de Maio de 2014
-@obs: Algoritmo A* Path Finding para a 
-procura de caminhos com menos custo 
-em funcao da intensidade.
-'''
+__author__ = '12551 Pedro Santos & 12552 Emanuel Teixeira'
+__date__ = '11 de Maior de 2014'
 
 class OpenImage(object):
 	"""Classe onde a imagem vai ser
